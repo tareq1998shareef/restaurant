@@ -4,7 +4,7 @@ import Contact from "../components/Contact/Contact";
 import Gallery from "../components/Gallery/Gallery";
 import HeroSection from "../components/HeroSection/HeroSection";
 import Menu from "../components/Menu/Menu";
-import PopularSection from "../components/popularSection/popularSection";
+import PopularSection from "../components/PopularSection/PopularSection";
 import { useEffect } from "react";
 
 export default function Home() {
