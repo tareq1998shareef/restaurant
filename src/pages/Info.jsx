@@ -1,6 +1,6 @@
 import { useLocation } from "react-router-dom";
 import Contact from "../components/Contact/Contact";
-import PopularSection from "../components/popularSection/popularSection";
+import PopularSection from "../components/PopularSection/PopularSection";
 import ProductInfo from "../components/ProductInfo/ProductInfo";
 import { useEffect } from "react";
 
