@@ -1,0 +1,118 @@
+.menu-section {
+  padding: 60px 40px;
+  direction: rtl;
+  color: #fff;
+  text-align: center;
+  background-image: url("/background2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.menu-title {
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 37px;
+}
+
+.menu-tabs {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 37px;
+}
+
+.menu-tab {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-weight: 400;
+  font-size: 25px;
+  padding: 10px 26px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.menu-tab.active,
+.menu-tab:hover {
+  background: #fff;
+  color: #dd1015;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 25px;
+  direction: rtl;
+}
+
+.menu-card {
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  color: #251f1d;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+  transition: transform 0.25s;
+}
+
+.menu-card:hover {
+  transform: translateY(-6px);
+}
+
+.menu-img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+}
+
+.menu-info {
+  padding: 18px 20px 22px;
+  text-align: right;
+}
+
+.menu-info h3 {
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.price {
+  font-weight: 400;
+  color: #dd1015;
+  direction: ltr;
+}
+
+.card-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.more-btn {
+  background: transparent;
+  border: none;
+  color: #000;
+  padding: 6px 14px;
+  border-radius: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.show-more {
+  margin-top: 40px;
+}
+
+.show-more-btn {
+  background: #fff;
+  color: #dd1015;
+  border: none;
+  padding: 10px 38px;
+  font-size: 17px;
+  border-radius: 18px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+  transition: background 0.25s ease;
+}
+
+.show-more-btn:hover {
+  background: #ffffffc4;
+}

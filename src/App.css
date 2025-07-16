@@ -1,0 +1,38 @@
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  flex-direction: row-reverse;
+}
+
+.add-to-cart {
+  background-color: #251f1d;
+  color: #fff;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 30px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.add-to-cart:hover {
+  background-color: #aa0000;
+}
+
+.more-btn {
+  background-color: transparent;
+  color: #000;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.stars {
+  margin-top: 10px;
+  color: #efc101;
+  font-size: 14px;
+}
